@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+div {
+  height: 13vh;
+}
+
+section {
+  position: relative;
+  height: 20vh;
+  margin-top: 3vw;
+}
+
+.box {
+  height: 25vh ;
+  position: absolute;
+  top: 1vh;
+  left: 46vw;
+}
+
+.triangle {
+  height: 33vh ;
+  position: absolute;
+  top: 1vh;
+  left: -10vw;
+}
+
+.circle {
+  height: 26vh ;
+  position: absolute;
+  top: 1vh;
+  left: 45vw;
+}
+
+@media (min-width: 500px) {
+
+  div {
+    height: 0vh;
+  }
+
+  section {
+    height: 24vh;
+    margin-top: 1vw;
+  }
+
+  .box {
+    height: 15vw ;
+    top: 5vh;
+    left: 44vw;
+  }
+
+  .triangle {
+    height: 20vw ;
+    top: 5vh;
+    left: 23vw;
+  }
+
+  .circle {
+    height: 16vw ;
+    top: 5vh;
+    left: 43vw;
+  }
+}
