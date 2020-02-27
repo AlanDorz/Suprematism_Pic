@@ -12,6 +12,10 @@ section {
   margin: 0 auto;
 }
 
+section.empty {
+  height: 80vh;
+}
+
 .box {
   height: 25vh ;
   position: absolute;
